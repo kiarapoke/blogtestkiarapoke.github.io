@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: ''
+title: Post!
 date: '2016-12-07'
 ---
 ## A New Post
