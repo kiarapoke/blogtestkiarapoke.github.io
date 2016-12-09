@@ -20,14 +20,20 @@ common-js:
   {% include head.html %}
 
   <body>
-  
+
     {% include nav.html %}
 
     {{ content }}
 
     {% include footer.html %}
-  
+
     {% include footer-scripts.html %}
-  
+
+  <script>
+    $(document).ready( function(){
+        $.fn.snow({ minSize: 5, maxSize: 50, newOn: 800, flakeColor: '#666666' });
+    });
+  </script>
+
   </body>
 </html>
