@@ -5,8 +5,13 @@
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
 website-url: "http://www.geartranslations.com"
-url: "http://kiarapoke.github.io/gt-blog"
+
+url: "http://geartranslations.github.io/gt-blog"
 baseurl: "/gt-blog"
+
+# For local testing
+#url: ""
+#baseurl: ""
 
 # Name of website
 title: GearTranslations Blog
@@ -32,10 +37,10 @@ avatar: "/img/gear.jpg"
 author:
   name: GearTranslations
   email: "sales@geartranslations.com"
-  facebook: GearTranslations  # eg. daattali
-  twitter: gear_t   # eg. daattali
-  google-plus: +Gear Translations Global   # eg. +DeanAttali or 109424658772469020925
-  linkedin: GearTranslations  # eg. daattali
+  facebook: GearTranslations
+  twitter: gear_t
+  google-plus: +Gear Translations Global
+  linkedin: GearTranslations
 
 # Select which links to show in the footer
 footer-links-active:
